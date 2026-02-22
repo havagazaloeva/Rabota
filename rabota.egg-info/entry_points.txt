@@ -1,0 +1,2 @@
+[console_scripts]
+start-game = VD_games.scripts.VD_main:main

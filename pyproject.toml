@@ -1,0 +1,17 @@
+[project]
+name = "rabota"
+version = "0.1.0"
+description = "Практическая работа №1"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {}
+
+[project.scripts]
+start-game = "VD_games.scripts.VD_main:main"
