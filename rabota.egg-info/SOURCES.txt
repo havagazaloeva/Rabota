@@ -1,6 +1,7 @@
 README.md
 pyproject.toml
 VD_games/__init__.py
+VD_games/cli.py
 VD_games/scripts/VD_main.py
 VD_games/scripts/__init__.py
 VD_games/scripts/games.py
@@ -8,4 +9,5 @@ rabota.egg-info/PKG-INFO
 rabota.egg-info/SOURCES.txt
 rabota.egg-info/dependency_links.txt
 rabota.egg-info/entry_points.txt
+rabota.egg-info/requires.txt
 rabota.egg-info/top_level.txt
