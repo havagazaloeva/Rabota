@@ -1,0 +1,13 @@
+pyproject.toml
+games/__init__.py
+games/calc.py
+games/engine.py
+games/gcd.py
+scripts/VD_calc.py
+scripts/VD_gcd.py
+scripts/__init__.py
+vd_games.egg-info/PKG-INFO
+vd_games.egg-info/SOURCES.txt
+vd_games.egg-info/dependency_links.txt
+vd_games.egg-info/entry_points.txt
+vd_games.egg-info/top_level.txt
