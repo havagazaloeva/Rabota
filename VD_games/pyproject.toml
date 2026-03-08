@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vd-games"
+version = "1.0.0"
+description = "VD Games: even, calculator, gcd"
+authors = [{name = "Khava Gazaloeva", email = "isip_h.r.gazaloeva@mpt.ru"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+VD-even = "scripts.VD_even:main"
+VD-calc = "scripts.VD_calc:main"
+VD-gcd = "scripts.VD_gcd:main"
+
+[tool.setuptools.packages.find]
+include = ["games*", "scripts*"]

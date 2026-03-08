@@ -1,0 +1,4 @@
+[console_scripts]
+VD-calc = scripts.VD_calc:main
+VD-even = scripts.VD_even:main
+VD-gcd = scripts.VD_gcd:main

@@ -1,5 +1,6 @@
 from VD_games.cli import welcome_user
 
+
 def game_function():
 	welcome_user()
 	return "Добро пожаловать в игру!"
