@@ -1,7 +1,0 @@
-[console_scripts]
-VD-calc = scripts.VD_calc:main
-VD-even = scripts.VD_even:main
-VD-games = cli:main
-VD-gcd = scripts.VD_gcd:main
-VD-prime = scripts.VD_prime:main
-VD-progression = scripts.VD_progression:main
