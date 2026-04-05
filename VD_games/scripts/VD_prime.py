@@ -1,10 +1,11 @@
+import os
 import random
 import sys
-import os
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from games.engine import run_game
+
 
 def is_prime(n):
     if n < 2:
