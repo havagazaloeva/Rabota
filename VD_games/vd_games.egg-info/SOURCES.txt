@@ -8,10 +8,13 @@ scripts/VD_calc.py
 scripts/VD_even.py
 scripts/VD_gcd.py
 scripts/VD_main.py
+scripts/VD_prime.py
+scripts/VD_progression.py
 scripts/__init__.py
 scripts/games.py
 vd_games.egg-info/PKG-INFO
 vd_games.egg-info/SOURCES.txt
 vd_games.egg-info/dependency_links.txt
 vd_games.egg-info/entry_points.txt
+vd_games.egg-info/requires.txt
 vd_games.egg-info/top_level.txt
