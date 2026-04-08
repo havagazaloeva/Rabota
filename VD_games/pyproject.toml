@@ -1,20 +1,12 @@
-[build-system]
-requires = ["setuptools>=61.0", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "vd-games"
 version = "1.0.0"
-description = "VD Games: even, calculator, gcd, progression, prime"
-authors = [
-    {name = "Khava Gazaloeva", email = "isip_h.gazaloeva@mpt.ru"}
-]
+description = "VD Games: even, calculator, gcd"
+authors = [{name = "Khava Gazaloeva", email = "isip_h.gazaloeva@mpt.ru"}]
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = [
-    "prompt>=0.4.1"
-]
+dependencies = ["prompt>=0.4.1"]
 
 [project.scripts]
 VD-games = "cli:main"
@@ -24,10 +16,14 @@ VD-gcd = "scripts.VD_gcd:main"
 VD-progression = "scripts.VD_progression:main"
 VD-prime = "scripts.VD_prime:main"
 
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [tool.setuptools.packages.find]
 include = ["games*", "scripts*"]
 
 [dependency-groups]
 dev = [
-    "ruff>=0.15.9"
+    "ruff>=0.15.9",
 ]

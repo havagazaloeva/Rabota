@@ -1,0 +1,3 @@
+[console_scripts]
+VD-even = VD_games.scripts.VD_even:play_game
+VD-games = VD_games.scripts.games:game_function
